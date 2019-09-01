@@ -15,8 +15,8 @@ export default {
     back: 'Back',
     accountLogin: 'Account Login',
     keysLogin: 'Private Key Login',
-    createAccount: 'CreateAccount',
-    importAccount: 'ImportAccount',
+    createAccount: 'Create Account',
+    importAccount: 'Import Account',
     editAccountName: 'EditName',
     lookAccount: 'ViewAccount',
     deletedWallet: 'Exit Wallet',
@@ -51,10 +51,10 @@ export default {
   },
   // message
   message: {
-    rememberPassword: 'Please remember the password, forget the password will not be recovered',
+    rememberPassword: 'Please remember the password, forgoten password will not be recoverable',
     recommendNew: 'Recommend new users for use',
     recommendOld: 'Recommend to users who already have COCOS accounts',
-    savePrivateKey: 'Please note:  please export the corresponding private key in time and keep it in a safe place. Do not leak the private key to anyone',
+    savePrivateKey: 'Please note:  please export the corresponding private key at once and keep it in a safe place. Do not leak the private key to anyone',
     privateKeyOnly: 'The private key will be the only way you can retrieve your account',
     noMoreRecord: 'No more records',
     noRecord: 'No transaction record',
@@ -146,7 +146,7 @@ export default {
   // label
   label: {
     send: 'The sender',
-    receive: 'The received',
+    receive: 'The receiver',
     hash: 'Trade ID',
     user: 'User',
     blockHeight: 'Block height',
@@ -209,7 +209,7 @@ export default {
     never: 'never'
   },
   networkName: {
-    MainNet: 'TestNet',
+    MainNet: 'MainNet',
     TestNet: 'TestNet',
     PrivateNet: 'PrivateNet'
   },
@@ -265,7 +265,7 @@ export default {
     151: 'File saving is not supported',
     152: 'Invalid backup to download conversion',
     153: 'Please unlock your wallet first',
-    154: 'Please restore your wallet firs',
+    154: 'Please restore your wallet first',
     155: 'Your browser may not support wallet file recovery',
     156: 'The wallet has been imported. Do not repeat import',
     157: 'Can not delete wallet, does not exist in index ',
