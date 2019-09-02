@@ -25,7 +25,7 @@ export default {
     recharge: 'Dépôser',
     transfer: 'Envoyer',
     resource: 'Ressource',
-    copy: 'Copier',
+    copy: 'Copier ',
     sure: 'Confirmer',
     copyPrivate: 'Copier la clé privée',
     doneCopy: 'Sauvegardé',
@@ -145,8 +145,8 @@ export default {
   },
   // label
   label: {
-    sen: 'L\'expéditeur',
-    receive: 'Le récepteur',
+    send: 'L\'expéditeur',
+    receive: 'Le receveur',
     hash: 'ID de l\'échange',
     user: 'Utilisateur',
     blockHeight: 'Hauteur du bloc',
@@ -181,8 +181,8 @@ export default {
     ptpayment: 'Paiement：',
     pttype: 'Type：',
     param: 'paramètres',
-    memo: 'mémo',
-    charge: 'frais',
+    memo: 'Mémo',
+    charge: 'Frais',
     nhTitle: 'Transferts d\'actif NH',
     nhId: 'ID d\'actif NH',
     worldView: 'Nom du multivers:'
